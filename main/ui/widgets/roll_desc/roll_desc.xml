@@ -1,0 +1,16 @@
+<widget>
+    <api>
+        <prop name="desc_text" type="string" default="Roll Description"/>
+    </api>
+    <styles>
+        <style name="main"
+               width="96"
+               height="16"
+               pad_all="0"
+               margin_all="0" />
+    </styles>
+    <view extends="lv_label"
+          styles="main"
+          text="$desc_text"
+          long_mode="scroll" \>
+</widget>

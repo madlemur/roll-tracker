@@ -1,0 +1,22 @@
+<component>
+    <api>
+        <prop name="die_1_face" default="face_4" type="string"/>
+        <prop name="die_2_face" default="face_3" type="string"/>
+        <prop name="roll_descr" default="Roll Description" type="string"/>
+    </api>
+
+    <styles>
+        <style  name="main" 
+                layout="flex" 
+                height="16"
+                width="128" 
+                pad_all="0"
+                margin_all="0" />
+    </styles>
+
+    <view extends="lv_obj" style="main" flex_flow="row">
+        <roll_face name="die_1" pip_val="$die_1_face" />
+        <roll_face name="die_2" pip_val="$die_2_face" />
+        <roll_desc desc_text="$roll_descr" />
+    </view>
+</component>

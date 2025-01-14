@@ -1,0 +1,16 @@
+
+<widget>
+    <api>
+        <prop name="pip_val" type="string" default="face_6"/>
+    </api>
+    <styles>
+        <style name="main"
+               width="16"
+               height="16"
+               pad_all="0"
+               margin_all="0" />
+    </styles>
+    <view extends="lv_image"
+          styles="main"
+          src="face_6" \>
+</widget>
